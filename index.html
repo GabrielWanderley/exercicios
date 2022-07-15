@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    
+    <title>calori</title>
+</head>
+<body>
+  <div id="fundo">
+    <H1> veja quantas calorias vocé perde</H1>
+    <div class="container" >
+        <img id="pular" src="./imagens/sid0171.gif">  
+        <h2>Pular cordar</h2>
+        <input id="corda" type="number" name: corda placeholder="tempo de treino em minutos" >
+        <button onclick="calc()">calcular</button>
+        <div id="salt"></div>
+      </div>
+    
+    <div class="container">
+        <img id="correr" src="./imagens/8d8d1002af6456df144cb683a78769cd.gif">
+        <h2>caminhada</h2>
+        <p> a velocidade media de uma caminhada é 6km </p>
+        <input id="vel" type="number" name: correr placeholder="velocidade" max="6">
+        <input id="pes" type="number" name: peso placeholder="peso em kg">
+        <button onclick="cal()">calcular</button>
+        <div id="corr"></div>
+       <!-- posso colocar no fututo duas opçoes metros e km  adcionar peso e velocidade agregaria bastante como a abaixo-->
+
+    </div>
+    <iframe src="https://pt.calcuworld.com/esportes/calorias-consumidas-ao-correr/?iframe=1" width="50%" height="300"></iframe>
+
+
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>
